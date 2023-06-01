@@ -3,6 +3,8 @@ import products
 import store
 
 
+# ***Hey this is Kapoor file
+
 def start(store):
     while True:
         command = input("""      1. List all products in store
@@ -37,6 +39,7 @@ def start(store):
 
 
 def order_product(product_list1, object1):
+    """the function to ask the product order and add it to the product list"""
     print("When you want to finish the order , enter empty text.")
     order_list = []
 
